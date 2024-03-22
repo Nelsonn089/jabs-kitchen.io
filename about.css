@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: rgba(0, 0, 0, 0.7) url(images/rest.jpg) center center fixed;background-size: cover;background-blend-mode: darken;
+    font-family: sans-serif
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: blue;
+}
+
+h2{
+    font-size: 50px;
+    position: relative;
+    text-align: justify;
+    color: #fff;
+    margin-top: 0%;
+    bottom: -100px;
+    right: -50px;
+}
+
+p{
+    padding: 1.5px;
+    position: relative;
+    color: #fff;
+    text-align: justify;
+    margin-top: 0%;
+    bottom: -100px;
+    right: -50px;
+}
+
+.footer{
+    color: #fff;
+    text-align: justify;
+    padding: 20px;
+    position:  fixed;
+    top: 80%;
+    width: 100%;
+    right: -40%;
+    }
+
+    .main_image1 img{
+        width: 500px;
+        position: relative;
+        top: 150px;
+        right: -60px;
+    }
+
+    .main_image2 img{
+        width: 400px;
+        position: relative;
+        bottom: 250px;
+        left: 900px;
+    }

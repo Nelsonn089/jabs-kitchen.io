@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: rgba(0, 0, 0, 0.7) url(images/rest.jpg) center center fixed;background-size: cover;background-blend-mode: darken;
+    font-family: sans-serif
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: blue;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:  fixed;
+    bottom: 0;
+    width: 100%;
+    }
+
+.main_menu img{
+        width: 300px;
+        height: 30vh;
+        position: relative;
+        top: 100px;
+        right: -60px;
+}
+
+.main_menu p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: 100px;
+    right: -150px;
+}
+
+.main_menu2 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -170px;
+    right: -600px;
+
+}
+
+.main_menu2 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -170px;
+    right: -670px;
+}
+
+.main_menu3 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -430px;
+    right: -1100px;
+}
+
+.main_menu3 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -430px;
+    right: -1170px;
+}
+
+.main_menu4 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -300px;
+    right: -60px;
+}
+
+.main_menu4 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -300px;
+    right: -150px;
+}
+
+.main_menu5 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -570px;
+    right: -600px;
+}
+
+.main_menu5 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -570px;
+    right: -670px;
+}
+
+.main_menu6 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -830px;
+    right: -1100px;
+}
+
+.main_menu6 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -830px;
+    right: -1200px;
+}
+
+.main_menu7 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -700px;
+    right: -60px;
+}
+
+.main_menu7 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -700px;
+    right: -150px;
+}
+
+.main_menu8 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -970px;
+    right: -600px;
+}
+
+.main_menu8 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -970px;
+    right: -670px;
+}
+
+.main_menu9 img{
+    width: 300px;
+    height: 30vh;
+    position: relative;
+    top: -1230px;
+    right: -1100px;
+}
+
+.main_menu9 p{
+    color: white;
+    padding: 1.5px;
+    text-align: justify;
+    position: relative;
+    font-family: sans-serif;
+    top: -1230px;
+    right: -1190px;
+}

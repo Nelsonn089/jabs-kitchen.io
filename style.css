@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: rgba(0, 0, 0, 0.7) url(images/rest.jpg) center center fixed;background-size: cover;background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: blue;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+}
+
+.content h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    text-align: justify;
+}
+
+.content h1{
+    font-size: 50px;
+    text-align: justify;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 3%;
+    text-align: justify;
+}
+.footer{
+color: #fff;
+text-align: center;
+padding: 20px;
+position:  fixed;
+bottom: 0;
+width: 100%;
+}
+.order-now-button{
+    width: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid blue;
+    background: transparent;
+    transition: 0.4s;
+    position: relative;
+    text-align: center;
+    left: 40%;
+    overflow: hidden;
+    bottom: -400px;
+}
+
+.order-now-button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.order-now-button:hover{
+    background-color: blue;
+    
+}

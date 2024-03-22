@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: rgba(0, 0, 0, 0.7) url(images/main-1.jpg) center center fixed;background-size: cover;background-blend-mode: darken;
+    font-family: sans-serif
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset,0 3px 50px blue inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: blue;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    top: 130px;
+    right: -500px;
+  }
+  
+  input, button {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 100px;
+    right: -650px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    top: 200px;
+  }
+
+.footer{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:  fixed;
+    bottom: 0;
+    width: 100%;
+    }
